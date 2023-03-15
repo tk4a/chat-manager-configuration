@@ -4,4 +4,5 @@ server:
 com:
   chat-manager:
     telegram:
+      testProp: Hello
       username: OpenAdminChatBot
