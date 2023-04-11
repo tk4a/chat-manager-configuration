@@ -4,8 +4,6 @@ server:
 spring:
   application:
     name: chat-manager
-  profiles:
-    active: dev
 
   config:
     import: configserver:http://localhost:8888
