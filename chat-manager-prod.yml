@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: chat-manager
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      
+com:
+  chat-manager:
+    telegram:
+      token: 6198426623:AAFIg_r1jwMg0qu9H6bhC9qnezQ1tKH4j4U
