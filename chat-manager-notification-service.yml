@@ -6,7 +6,7 @@ spring:
     name: chat-manager-notification-service
   r2dbc:
     url: r2dbc:postgresql://localhost:5432/postgres
-    username: postgres
+    username: artemtkachev
     password: postgres 
 
 eureka:
