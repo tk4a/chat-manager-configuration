@@ -4,10 +4,10 @@ server:
 spring:
   application:
     name: chat-manager-notification-service
-  r2dbc:
-    url: r2dbc:postgresql://localhost:5433/postgres
-    username: postgres
-    password: docker 
+#   r2dbc:
+#     url: r2dbc:postgresql://localhost:5433/postgres
+#     username: postgres
+#     password: docker 
 
 eureka:
   client:
