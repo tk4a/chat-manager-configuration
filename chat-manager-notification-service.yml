@@ -5,7 +5,7 @@ spring:
   application:
     name: chat-manager-notification-service
   r2dbc:
-    url: r2dbc:postgresql://${DB_HOST:localhost}:/postgres
+    url: r2dbc:postgresql://${DB_HOST:localhost:5432}/postgres
     username: postgres
     password: docker
   liquibase:
@@ -17,4 +17,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://${EUREKA_HOST:localhost:5432}8761/eureka
+      defaultZone: http://${EUREKA_HOST:localhost}:8761/eureka
