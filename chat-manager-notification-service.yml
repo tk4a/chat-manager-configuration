@@ -1,11 +1,6 @@
 server:
   port: 8080
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://${EUREKA_HOST:localhost}:8761/eureka
-
 spring:
   application:
     name: chat-manager-notification-service
@@ -22,4 +17,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://${EUREKA_HOST:localhost}:8761/eureka
