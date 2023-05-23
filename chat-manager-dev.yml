@@ -12,6 +12,8 @@ eureka:
       
 com:
   chat-manager:
+    notification:
+      url: http://localhost:8080
     telegram:
       token: 6198426623:AAFIg_r1jwMg0qu9H6bhC9qnezQ1tKH4j4U
       username: OpenAdminChatBot
