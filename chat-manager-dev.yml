@@ -15,5 +15,5 @@ com:
     notification:
       url: http://localhost:8080
     telegram:
-      token: 198426623:AAEHkcNYFo1FpEyb4I9aZUIU_pHxfIdT9bk
+      token: 6198426623:AAFfZkS4SY1GiJIbWoW5_zTQNyZ9jpSIMfQ
       username: OpenAdminChatBot
